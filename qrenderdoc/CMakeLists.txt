@@ -431,8 +431,8 @@ if(APPLE AND CMAKE_GENERATOR STREQUAL "Xcode")
     source_group(TREE ${CMAKE_CURRENT_SOURCE_DIR} FILES ${THIRDPARTY_FILES})
 endif()
 
-install (PROGRAMS ${CMAKE_BINARY_DIR}/bin/qrenderdoc DESTINATION bin)
-
+install (PROGRAMS ${CMAKE_BINARY_DIR}/bin/BolinDoc DESTINATION bin)
+#
 # Install supporting files for file associations etc
 install (FILES share/application-x-renderdoc-capture.svg DESTINATION share/icons/hicolor/scalable/mimetypes/)
 install (FILES share/renderdoc-icon-16x16.xpm DESTINATION share/pixmaps/)
